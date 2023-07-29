@@ -1,0 +1,79 @@
+@font-face {
+    font-family: menucs;
+    src: url(../font/menucs.ttf);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../font/titulo.ttf);
+}
+
+@font-face {
+    font-family: info;
+    src: url(../font/info.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+}
+
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	font-family: menucs;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #000000;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #821b36;
+	width: 140%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: menucs;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu li a:hover{
+	color: #000000;
+	transition: all .3s;
+}

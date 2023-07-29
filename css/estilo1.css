@@ -1,0 +1,325 @@
+@font-face {
+    font-family: menucs;
+    src: url(../font/menucs.ttf);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../font/titulo.ttf);
+}
+
+@font-face {
+    font-family: info;
+    src: url(../font/info.ttf);
+}
+
+.principal{
+    width:100%;
+    height: 100%;
+    background-color: #39002d;
+    position: relative;
+    left:0 ;
+    right:0;
+    margin: 0%;
+}
+.header{
+  background-color: #821b36;
+  margin: 1%;
+  padding: 10px;
+  height: 110px;
+  font-size:20px;
+  text-align: center;
+}
+.main{
+    background-color: #58064a;
+    height:90%;
+    margin:5%; 
+    padding: 30px;
+}
+.box1{
+
+    width:300px;
+    height:270px;
+    margin:5%;
+    background-color: lightpink
+  
+}
+.box2{
+    width:430px;
+    height:310px;
+    margin:5%;
+    background-color: darksalmon
+   
+}
+.box3{
+    float: right;
+    width:400px;
+    height:400px;
+    margin:5%;
+   background-color: mediumpurple;
+    position: relative;
+    top:-740px;
+}
+.footer{
+    background-color: #821b36;
+    margin: 1%;
+    padding:10px;
+    height:50px;
+    text-align: right;
+}
+.section{
+    background-color: #c9a6b0;
+    width:95%;
+    height:30%;
+    margin:30px;
+    padding:30px;
+}
+.caja{
+    align-content: left;
+    margin-left: 850px;
+    margin-top: -650px;
+    position: right;
+    width: 50%;
+}
+
+.texto{
+    text-align: center;
+}
+
+.alinear{
+    display: flex;
+}
+
+.imagen{
+    width: 120px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.imagen2{
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.imagen3{
+    margin-top: -20px;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+}
+.estilodeltitulo{
+    font-family: titulo;
+}
+.estilodelcontenido{
+    font-family: info;
+}
+
+.estilodelcontenido1{
+    font-family: info;
+    text-align: center;
+}
+
+.icono{
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 680px;
+}
+
+.icono2{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.menuimagen{
+    text-align: right;
+    margin-top: -70px;
+}
+
+.mapa{
+    margin-left: 550px;
+    margin-top: -600px;
+    border-radius: 20px;
+}
+
+.icono3{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.icono5{
+    text-align: right;
+    margin-top: 110px;
+}
+
+.icono7{
+    text-align: left;
+    margin-top:-35px;
+}
+
+.icono6{
+    text-align: left;
+    margin-top:5px;
+}
+
+.icono4{
+    text-align: left;
+    margin-top:-10px;
+}
+
+.imagen4{
+    margin-top: -850px;
+    width: 400px;
+    height: 400px;
+    margin-left: 900px;
+    border-radius: 20px;
+}
+.boxizquierda{
+    width: 45%;
+    height: 600px;
+    margin-left: 65px;
+}
+
+.borde{
+    border-radius: 20px;
+}
+
+.cuadro1{
+    width: 45%;
+    height: 600px;
+    margin-left: 65px;
+}
+
+.cuadro2{
+    width: 45%;
+    height: 600px;
+    margin-left: 800px;
+    margin-top: -650px;
+}
+
+.cuadro3{
+    width: 35%;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -350px;
+}
+
+.cuadro4{
+    width: 45%;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.imagen3{
+    margin-top: -160px;
+    width: 300px;
+    height: 300px;
+    margin-left: 620px;
+}
+
+.icono10{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.cuadro5{
+    width: 45%;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.imagen5{
+    margin-top: -110px;
+    width: 350px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.cuadro6{
+    width: 60%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.cuadro7{
+    width: 45%;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cuadro8{
+    width: 70%;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.cuadro9{
+    width: 45%;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.cuadro10{
+    width: 45%;
+    height: 340px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+.imagen8{
+    margin-top: -500px;
+    width: 340px;
+    height: 340px;
+    margin-left: 550px;
+}
+
+.cuadro11{
+    width: 45%;
+    height: 340px;
+    margin-left: 450px;
+    margin-top: -320px;
+
+}
+
+.imagen21{
+    margin-top: 5px;
+    width: 350px;
+    height: 370px;
+    margin-left: 50px;
+}
+
+.imagen22{
+    margin-top: 5px;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.imagen23{
+    border-radius: 20px;
+    margin-left: 40px;
+    width: 1550px;
+    height: 900px;
+}
+
+.icono24{
+    text-align: right;
+    margin-top: 45px;
+}
+.mover{
+    margin-left: 200px;
+}
+
+.icono69{
+    margin-left: 480px;
+}
+
